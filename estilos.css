@@ -40,7 +40,6 @@ h1{
 div#img img{
     height: 320px;
     margin: auto;
-    display: block;
     border-radius: 10%;
 }
 

@@ -1,0 +1,26 @@
+@media screen and (max-width:500px) {
+    main{
+        display: block;
+    }
+
+    h1{
+        margin: auto;
+        display: block;
+        padding: 15px;
+        font-family: 'amorzin';
+        font-size: 30px;
+        line-height: 30px;
+        color: #FFE3C7;
+    }
+
+    div#img img{
+        height: 270px;
+        margin: auto;
+        border-radius: 10%;
+    }
+
+    div#op{
+        display: flex;
+    }
+    
+}
