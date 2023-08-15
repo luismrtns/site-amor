@@ -1,5 +1,5 @@
 function sim(){
-    alert('agora vamos ser felizes por mais um aninho, minha princesa!')
+    alert('contrato renovado por mais um ano, minha princesa!')
 }
 
 function mudarPos(min, max){ // vai gerar número aletório para mudar a posição do botão

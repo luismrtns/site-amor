@@ -20,8 +20,8 @@ body{
     height: 160px;
     position: relative;
 
-    background-color: #BF0B2C;
-    box-shadow: 0px 0px 20px #FF293B;
+    background-color: #FF293B;
+    box-shadow: 0px 0px 20px #ff293b6e;
 
     transform-origin: right bottom;
 
@@ -93,8 +93,7 @@ body{
     transform-origin: left bottom;
 
     background-color: #FF293B;
-    box-shadow: 0px 0px 20px #FF293B;
-
+    box-shadow: 0px 0px 20px #ff293b6e;
     /*transition: .5s ease;*/
 
     animation: heart_after 3s ease infinite alternate;
