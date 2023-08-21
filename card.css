@@ -71,7 +71,7 @@ body{
     font-size:20px;
     display: flex;
     justify-content: center;
-    color: #FF770D;
+    color: #9F4BF2;
     font-weight: 600;
     font-family: 'Courier New', Courier, monospace;
     text-transform: uppercase;
@@ -85,12 +85,12 @@ body{
 }
 
 strong{
-    color: #F27405;
+    color: #9F4BF2;
     font-weight: bold;
 }
 
 .card ion-icon{
-    color: #F27405;
+    color: #9F4BF2;
     font-size: 25px;
     padding: 5px;
     transform: rotate(-360deg);
