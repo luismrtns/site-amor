@@ -25,7 +25,7 @@ body{
 }
 
 .card{
-    background-color: #13131F;
+    background-color: #181825;
     overflow: hidden;
     border-radius: 10px;
     width: 500px;
@@ -35,7 +35,6 @@ body{
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.292);
 }
 
 .card .img{
