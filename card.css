@@ -1,0 +1,103 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400&display=swap');
+
+body{
+    background-color: #13131F;
+}
+
+.conteiner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    transform: translate(-50%, -50%);
+    
+}
+
+.card{
+    background-color: #1C1A26;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 500px;
+    max-height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.292);
+}
+
+.card .img{
+    background-image: url(imagens/desenho-amor.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .img span{
+    font-size: 20px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.card .conteudo{
+    padding: 0 20px;
+    overflow: hidden;
+    height: 0;
+    transition: all .5s;
+}
+
+.card:hover .conteudo{
+    padding: 20px;
+    height: 320px;
+}
+
+.titulo{
+    font-size:20px;
+    display: flex;
+    justify-content: center;
+    color: #FF770D;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.desc{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+strong{
+    color: #F27405;
+    font-weight: bold;
+}
+
+.card ion-icon{
+    color: #F27405;
+    font-size: 25px;
+    padding: 5px;
+    transform: rotate(-360deg);
+    transition: all .5s;
+}
+
+ion-icon:hover{
+    transform: rotate(180deg);
+}
