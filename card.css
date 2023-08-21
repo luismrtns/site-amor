@@ -29,7 +29,7 @@ body{
     overflow: hidden;
     border-radius: 10px;
     width: 500px;
-    max-height: 750px;
+    max-height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -101,3 +101,23 @@ strong{
 ion-icon:hover{
     transform: rotate(180deg);
 }
+
+/*div.op{
+    display: flex;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    justify-content: center;
+    align-items: center;
+
+    transform: translate(-50%, -50%);
+}
+
+a{
+    color: #FF770D;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #f29d52;
+}*/
