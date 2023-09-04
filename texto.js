@@ -11,3 +11,4 @@ function digitador(elemento){
 }
 
 digitador(texto)
+digitador(document.querySelector('.titulo'))
