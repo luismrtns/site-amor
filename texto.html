@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300&display=swap');
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Raleway', sans-serif;
+        }
+
+
+        body{
+            background-color: #130f23;
+        }
+
+        h1{
+            max-width: 480px;
+            text-align: center;
+            margin: 20px auto;
+            color: #9c9cff;
+        }
+
+        h1::after{
+            content: '|';
+            margin-left: 5px;
+            opacity: 1;
+            color: crimson;
+
+            animation: pisca .7s infinite;
+        }
+
+        ion-icon{
+            color: crimson;
+            position: relative;
+            top: 7px;
+            margin: auto;
+            font-size: 70px;
+            transition: .3s ease;
+        }
+
+        ion-icon:hover{
+            color: #803DDB;
+            transition: .3s ease;
+        }
+
+        span{
+            color: #c2c2fe;
+        }
+
+        p{
+            color: #9c9cff;
+            text-align: center;
+            margin: auto;
+            font-size: 25px;
+            padding: 10px;
+        }
+
+        strong{
+            color: burlywood;
+        }
+
+        section{
+            margin: auto;
+            background-color: rgba(38, 7, 7, 0.234);
+            padding: 14px;
+            width: 75vw;
+            box-shadow: inset 0px 0px 10px rgba(220, 20, 60, 0.176);
+        }
+
+        li{
+            list-style: none;
+            color: burlywood;
+            text-align: center;
+            margin: auto;
+            padding: 3px;
+            font-size: 22px;
+        }
+
+        img{
+            margin: 5px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 250px;
+            border-radius: 50%;
+        }
+
+        @keyframes pisca {
+            0%, 100%{
+                opacity: 1;
+            }
+            50%{
+                opacity: 0;
+            }
+        }
+    </style>
+    <script src="texto.js" defer></script>
+    <title>textinho</title>
+</head>
+<body>
+    <h1 id="texto">Última supresinha princesa</h1>
+
+
+    <p><span>Lista de 7 coisas que eu mais amo em você:</span></p>
+        <section>
+            <ul>
+                <strong>
+                        <li>+ seu sorriso, ser o motivo dele é meu maior tesouro</li>
+                        <li>+ sua personalidade toda sapequinha, brincalhona e que sempre me faz sorrir quando preciso</li>
+                        <li>+ amo seu caráter e o quão responsável e madura você é, com certeza sou apaixonado por isso</li>
+                        <li>+ o jeito que você ama e cuida dos animais sempre que pode, acho isso muito puro em você</li>
+                        <li>+ seu jeitinho carinhoso que eu sou MALUCO, não existe nada melhor do que receber seu carinho</li>
+                        <li>+ amo seu cheirinho doce, que sempre me acalma quando sinto</li>
+                        <li>+ sua presença é a coisa que mais me faz feliz, não existe nada melhor que estar com você, amo cada segundo </li>
+                </strong>
+            </ul>
+        </section>
+    <p>
+        <a target="_blank" href="https://www.youtube.com/watch?v=e2ZRUJiNLPY">
+            <ion-icon name="fitness-outline"></ion-icon>
+        </a>
+    </p>
+
+    <img src="imagens/11763608_4808833.svg" alt="">
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
+</body>
+</html>
